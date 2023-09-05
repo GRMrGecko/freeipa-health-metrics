@@ -1,0 +1,14 @@
+# ipa1.example.com, computers, accounts, example.com
+dn: fqdn=ipa1.example.com,cn=computers,cn=accounts,dc=example,dc=com
+
+# ipa2.example.com, computers, accounts, example.com
+dn: fqdn=ipa2.example.com,cn=computers,cn=accounts,dc=example,dc=com
+
+# ipa3.example.com, computers, accounts, example.com
+dn: fqdn=ipa3.example.com,cn=computers,cn=accounts,dc=example,dc=com
+
+# centos6.example.com, computers, accounts, example.com
+dn: fqdn=centos6.example.com,cn=computers,cn=accounts,dc=example,dc=com
+
+# centos7.example.com, computers, accounts, example.com
+dn: fqdn=centos7.example.com,cn=computers,cn=accounts,dc=example,dc=com

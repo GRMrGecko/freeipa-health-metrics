@@ -1,0 +1,45 @@
+# HELP freeipa_config_dna_range DNA range is defined.
+# TYPE freeipa_config_dna_range gauge
+freeipa_config_dna_range 1
+# HELP freeipa_config_ipa_ca_issued_cert The FreeIPA API was issued a certificate by the CA cert.
+# TYPE freeipa_config_ipa_ca_issued_cert gauge
+freeipa_config_ipa_ca_issued_cert 1
+# HELP freeipa_config_ipa_ca_issued_ldap_cert The LDAP cert was issued a certificate by the CA cert.
+# TYPE freeipa_config_ipa_ca_issued_ldap_cert gauge
+freeipa_config_ipa_ca_issued_ldap_cert 1
+# HELP freeipa_config_ipa_cert_auto_renew The FreeIPA API certificate is managed and set to auto renew.
+# TYPE freeipa_config_ipa_cert_auto_renew gauge
+freeipa_config_ipa_cert_auto_renew 1
+# HELP freeipa_config_ipa_earliest_cert_expiry The earliest certificate expiry date for FreeIPA API.
+# TYPE freeipa_config_ipa_earliest_cert_expiry gauge
+freeipa_config_ipa_earliest_cert_expiry 2.639495644e+09
+# HELP freeipa_config_krb5_auth Kerberos can authenticate.
+# TYPE freeipa_config_krb5_auth gauge
+freeipa_config_krb5_auth 1
+# HELP freeipa_config_krb5_workers Workers match processors.
+# TYPE freeipa_config_krb5_workers gauge
+freeipa_config_krb5_workers 0
+# HELP freeipa_config_ldap_cert_auto_renew The LDAP certificate is managed and set to auto renew.
+# TYPE freeipa_config_ldap_cert_auto_renew gauge
+freeipa_config_ldap_cert_auto_renew 1
+# HELP freeipa_config_ldap_earliest_cert_expiry The earliest certificate expiry date for LDAP.
+# TYPE freeipa_config_ldap_earliest_cert_expiry gauge
+freeipa_config_ldap_earliest_cert_expiry 2.639495644e+09
+# HELP freeipa_config_proxy_secret Proxy secret is configured.
+# TYPE freeipa_config_proxy_secret gauge
+freeipa_config_proxy_secret 1
+# HELP freeipa_config_renewal_master This server is the renewal master.
+# TYPE freeipa_config_renewal_master gauge
+freeipa_config_renewal_master 1
+# HELP freeipa_failures_total Number of errors while scapping metrics.
+# TYPE freeipa_failures_total counter
+freeipa_failures_total 0
+# HELP freeipa_freeipa_failed_tests Number of failed tests in the most recent scrape.
+# TYPE freeipa_freeipa_failed_tests gauge
+freeipa_freeipa_failed_tests 1
+# HELP freeipa_scrapes_total Current total HAProxy scrapes.
+# TYPE freeipa_scrapes_total counter
+freeipa_scrapes_total 1
+# HELP freeipa_up Was the last scrape of FreeIPA successful.
+# TYPE freeipa_up gauge
+freeipa_up 1

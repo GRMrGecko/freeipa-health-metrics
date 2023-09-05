@@ -1,0 +1,31 @@
+{
+	"result": {
+		"count": 1,
+		"truncated": false,
+		"result": [
+			{
+				"dn": "cn=EXAMPLE.COM_id_range,cn=ranges,cn=etc,dc=example,dc=com",
+				"iparangetype": [
+					"local domain range"
+				],
+				"cn": [
+					"EXAMPLE.COM_id_range"
+				],
+				"ipabaseid": [
+					"431800000"
+				],
+				"iparangetyperaw": [
+					"ipa-local"
+				],
+				"ipaidrangesize": [
+					"200000"
+				]
+			}
+		],
+		"summary": "1 range matched"
+	},
+	"version": "4.6.8",
+	"error": null,
+	"id": null,
+	"principal": "freeipa-health-metrics@EXAMPLE.COM"
+}

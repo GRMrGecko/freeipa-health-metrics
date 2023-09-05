@@ -1,0 +1,36 @@
+# ipa1.example.com, masters, ipa, etc, example.com
+dn: cn=ipa1.example.com,cn=masters,cn=ipa,cn=etc,dc=example,dc=com
+objectClass: top
+objectClass: nsContainer
+objectClass: ipaReplTopoManagedServer
+objectClass: ipaConfigObject
+objectClass: ipaSupportedDomainLevelConfig
+cn: ipa1.example.com
+ipaReplTopoManagedSuffix: dc=example,dc=com
+ipaReplTopoManagedSuffix: o=ipaca
+ipaMinDomainLevel: 0
+ipaMaxDomainLevel: 1
+
+# ipa2.example.com, masters, ipa, etc, example.com
+dn: cn=ipa2.example.com,cn=masters,cn=ipa,cn=etc,dc=example,dc=com
+objectClass: top
+objectClass: nsContainer
+objectClass: ipaReplTopoManagedServer
+objectClass: ipaConfigObject
+objectClass: ipaSupportedDomainLevelConfig
+cn: ipa2.example.com
+ipaReplTopoManagedSuffix: dc=example,dc=com
+ipaMinDomainLevel: 0
+ipaMaxDomainLevel: 1
+
+# ipa3.example.com, masters, ipa, etc, example.com
+dn: cn=ipa3.example.com,cn=masters,cn=ipa,cn=etc,dc=example,dc=com
+objectClass: top
+objectClass: nsContainer
+objectClass: ipaReplTopoManagedServer
+objectClass: ipaConfigObject
+objectClass: ipaSupportedDomainLevelConfig
+cn: ipa3.example.com
+ipaReplTopoManagedSuffix: dc=example,dc=com
+ipaMinDomainLevel: 0
+ipaMaxDomainLevel: 1

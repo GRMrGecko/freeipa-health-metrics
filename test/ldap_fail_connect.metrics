@@ -1,0 +1,9 @@
+# HELP freeipa_ldap_failures_total Number of errors while scapping metrics.
+# TYPE freeipa_ldap_failures_total counter
+freeipa_ldap_failures_total 1
+# HELP freeipa_ldap_scrapes_total Current total HAProxy scrapes.
+# TYPE freeipa_ldap_scrapes_total counter
+freeipa_ldap_scrapes_total 3
+# HELP freeipa_ldap_up Was the last scrape of FreeIPA successful.
+# TYPE freeipa_ldap_up gauge
+freeipa_ldap_up 0

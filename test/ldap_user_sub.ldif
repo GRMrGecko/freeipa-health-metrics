@@ -1,0 +1,3 @@
+# users, accounts, example.com
+dn: cn=users,cn=accounts,dc=example,dc=com
+numSubordinates: 7

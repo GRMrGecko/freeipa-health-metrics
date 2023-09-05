@@ -1,0 +1,5 @@
+# 6044f548-9c19-11ed-812d-52540006a399, hbac, example.com
+dn: ipaUniqueID=6044f548-9c19-11ed-812d-52540006a399,cn=hbac,dc=example,dc=com
+
+# 610318a2-9c19-11ed-a39e-52540006a399, hbac, example.com
+dn: ipaUniqueID=610318a2-9c19-11ed-a39e-52540006a399,cn=hbac,dc=example,dc=com

@@ -1,0 +1,3 @@
+# deleted users, accounts, provisioning, example.com
+dn: cn=deleted users,cn=accounts,cn=provisioning,dc=example,dc=com
+numSubordinates: 3

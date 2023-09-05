@@ -1,0 +1,3 @@
+# staged users, accounts, provisioning, example.com
+dn: cn=staged users,cn=accounts,cn=provisioning,dc=example,dc=com
+numSubordinates: 1

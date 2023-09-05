@@ -1,0 +1,32 @@
+#!/bin/bash
+
+cache=""
+
+# Parse arguments.
+while (( $# > 0 )); do
+    case "$1" in
+        -c)
+            shift
+            cache=$1
+            shift
+        ;;
+    esac
+done
+
+# If cache file isn't expected path, return error.
+if ! [[ $cache =~ \/tmp\/krb5_cache_.* ]]; then
+    echo "klist: No credentials cache found (filename: $cache)"
+    exit 1
+fi
+
+# Return basic klist response.
+cat <<EOF
+Ticket cache: FILE:$cache
+Default principal: host/ipa1.example.com@EXAMPLE.COM
+
+Valid starting       Expires              Service principal
+08/30/2023 17:04:18  08/31/2050 17:04:18  krbtgt/EXAMPLE.COM@EXAMPLE.COM
+EOF
+
+# Return zero exit
+exit 0

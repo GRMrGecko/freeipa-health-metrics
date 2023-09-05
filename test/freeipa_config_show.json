@@ -1,0 +1,81 @@
+{
+	"result": {
+		"result": {
+			"ipausersearchfields": [
+				"uid,givenname,sn,telephonenumber,ou,title"
+			],
+			"ipauserauthtype": [
+				"otp"
+			],
+			"ca_renewal_master_server": "ipa1.example.com",
+			"ipadefaultprimarygroup": [
+				"Example"
+			],
+			"ipapwdexpadvnotify": [
+				"14"
+			],
+			"ipasearchtimelimit": [
+				"60"
+			],
+			"ipasearchrecordslimit": [
+				"100"
+			],
+			"ntp_server_server": [
+				"ipa1.example.com",
+				"ipa2.example.com",
+				"ipa3.example.com"
+			],
+			"ipadefaultloginshell": [
+				"/bin/bash"
+			],
+			"ipacertificatesubjectbase": [
+				"O=EXAMPLE.COM"
+			],
+			"ipa_master_server": [
+				"ipa1.example.com",
+				"ipa2.example.com",
+				"ipa3.example.com"
+			],
+			"ipaconfigstring": [
+				"KDC:Disable Last Success"
+			],
+			"dn": "cn=ipaConfig,cn=etc,dc=example,dc=com",
+			"ipakrbauthzdata": [
+				"MS-PAC",
+				"nfs:NONE"
+			],
+			"ipagroupsearchfields": [
+				"cn,description"
+			],
+			"ca_server_server": [
+				"ipa1.example.com",
+				"ipa2.example.com",
+				"ipa3.example.com"
+			],
+			"ipamaxusernamelength": [
+				"32"
+			],
+			"ipaselinuxusermapdefault": [
+				"unconfined_u:s0-s0:c0.c1023"
+			],
+			"ipahomesrootdir": [
+				"/home/staff"
+			],
+			"ipamigrationenabled": [
+				"FALSE"
+			],
+			"ipadefaultemaildomain": [
+				"example.com"
+			],
+			"ipaselinuxusermaporder": [
+				"guest_u:s0$xguest_u:s0$user_u:s0$staff_u:s0-s0:c0.c1023$unconfined_u:s0-s0:c0.c1023"
+			]
+		},
+		"value": null,
+		"summary": null
+	},
+	"version": "4.6.8",
+	"error": null,
+	"id": null,
+	"principal": "freeipa-health-metrics@EXAMPLE.COM"
+}

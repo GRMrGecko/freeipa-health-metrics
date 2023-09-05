@@ -1,0 +1,29 @@
+{
+	"result": {
+		"result": {
+			"dn": "cn=ipa,cn=cas,cn=ca,dc=example,dc=com",
+			"certificate": "MIIE0DCCArgCCQCTUB7qC+C7MDANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDDB5pcGExLmV4YW1wbGUuY29tLE89RVhBTVBMRS5DT00wIBcNMjMwODMwMTcxNDA0WhgPMjA1MzA4MjIxNzE0MDRaMCkxJzAlBgNVBAMMHmlwYTEuZXhhbXBsZS5jb20sTz1FWEFNUExFLkNPTTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAMRg/nBPpAT/jQExqS9icLDkQwmTMX745VWKxLFGfIox2CnA5d7qvFKaeaZJ10qy3utIrTj8eEfA8Yhrn5Kwu7TUWmuVGi7I7hBFqXG1Qtp1SwGDw1r8RYLuwiByaCU/lS7KBpd2r7gGo0I0KBvE/HCd9pJ4ABv+ZpJgBBgvXJGrVISV8UV0W85cMwDrrNOBrbENIqG5383Gf3qlNgXL68tQBWRD5U58VlpYx4ETV2sY6ctWRK3VMW0WVM3lg6/IqNhRCwriXvNyoX+KNC56sfGdAy9nLXjd5bgowSiC+0whH4qW2dS+FIIscfFgnAefN42Z84CoCeYzcdwvp47almZe+iLQFgZCEwTCG3CxhA2C02pu2krjCpolSPZYNT6qgIhULXcEVB1BKrno0Zkz9jac+1ffd/gD2F8ufGoRZHgOwMdP6EpHN2dKr9pj+JD1NANjSAfN495VTS2D5681zu7qvDpmqHR6Jj9XaLflpIQlN/ULGpV0zw7pCejErq6YkqA4ES3p1Nr5rnT7U2oz25++TMhlRzkcacVQGy8x6vuXpRA2rVJMH7jDfee1CZu2+C82cZeZeAHn1MYGMtz/6RUEEMuf5HfLMbiYuqktTKRfxxFxO6XpEiE3EyI0jTZjXmQUwn4w4fKMcpgpiRLVnIrA9FCQhKJe5kA1pP69gIsfAgMBAAEwDQYJKoZIhvcNAQELBQADggIBAMMmZoEvF4/koymO9aTBmLMMgZphXyss5ng7MDAFntyG/z+zBpVuzfPb1mhFNkege5qhMUfIUmMsuBCTdfVn1OlhwHrTNIggmEvWHeucniA2WLZy7HIucPqP+mNNXVFE7PM9XVS9CayBU/k44/7sxJbxH1YK2gUYsAliBJKup73+jgKslqh0ISW0AhJS4JFR02z0FLypyFcUmnRj7fatGsAr8NRajPDVaDE+F5VISwYuBzNGzgefj1O+xnlLbWfRn95GKmMlA4k15JXwjSDV1nZqgh1JAw9Alp2scAZwMnoYoQhj882nkxLkNc9+uKApC6aNYgJEjrR/CUTDLagqcSkzETHUhVyMpXPDGWsp+u9jp7jEYIPhx4rbsAv/sCl3dZpB9IKjZUOprq4b1T/qF7rohUtrbawwYpY8ai5o+VlSeLVT7+j194JdZuScROjlzw/47VVMlGdwYEYr1caTutFmVxnUnlaPrn27OnfIGEIKrE1WncveBgRNJ8WFeG0WObRTP+RRhraR7tzigvWx9Yhjyk8tSyUbzvICmlnqWKewet4ZwCZ/sw9r0KukTIC0/iPzd1EKxMNf3eoHw0xhumXbNAniXSsXSXAUtDltnZfCtzvcEQL1r8uOl4bKJXfbb0+HmAw+PWWuNQm1g4MCPTEH5e/ij5WyGgDm36vu3HEm",
+			"cn": [
+				"ipa"
+			],
+			"ipacaissuerdn": [
+				"CN=Certificate Authority,O=EXAMPLE.COM"
+			],
+			"ipacasubjectdn": [
+				"CN=Certificate Authority,O=EXAMPLE.COM"
+			],
+			"ipacaid": [
+				"c5b227ea-6490-45bf-9da4-f162e6896440"
+			],
+			"description": [
+				"IPA CA"
+			]
+		},
+		"value": "ipa",
+		"summary": null
+	},
+	"version": "4.6.8",
+	"error": null,
+	"id": null,
+	"principal": "freeipa-health-metrics@EXAMPLE.COM"
+}

@@ -1,0 +1,14 @@
+{
+	"result": null,
+	"version": "4.6.8",
+	"error": {
+		"message": "Invalid JSON-RPC request: Expecting property name enclosed in double quotes: line 4 column 4 (char 44)",
+		"code": 909,
+		"data": {
+			"error": "Expecting property name enclosed in double quotes: line 4 column 4 (char 44)"
+		},
+		"name": "JSONError"
+	},
+	"id": null,
+	"principal": "admin@EXAMPLE.COM"
+}

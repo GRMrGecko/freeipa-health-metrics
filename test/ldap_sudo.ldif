@@ -1,0 +1,3 @@
+# e800b6ce-b718-11ed-87b0-52540006a399, sudorules, sudo, example.com
+dn: ipaUniqueID=e800b6ce-b718-11ed-87b0-52540006a399,cn=sudorules,cn=sudo,dc=e
+ xample,dc=com

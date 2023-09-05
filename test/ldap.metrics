@@ -1,0 +1,59 @@
+# HELP freeipa_ldap_certificate_total Total number of certificates.
+# TYPE freeipa_ldap_certificate_total counter
+freeipa_ldap_certificate_total 0
+# HELP freeipa_ldap_conflicts_total Total number of LDAP conflicts.
+# TYPE freeipa_ldap_conflicts_total counter
+freeipa_ldap_conflicts_total 0
+# HELP freeipa_ldap_dns_zone_total Total number of DNS zones.
+# TYPE freeipa_ldap_dns_zone_total counter
+freeipa_ldap_dns_zone_total 0
+# HELP freeipa_ldap_failures_total Number of errors while scapping metrics.
+# TYPE freeipa_ldap_failures_total counter
+freeipa_ldap_failures_total 0
+# HELP freeipa_ldap_ghost_replica_total Total number of ghost replicas.
+# TYPE freeipa_ldap_ghost_replica_total counter
+freeipa_ldap_ghost_replica_total 0
+# HELP freeipa_ldap_group_total Total number of groups.
+# TYPE freeipa_ldap_group_total counter
+freeipa_ldap_group_total 3
+# HELP freeipa_ldap_hbac_rule_total Total number of HBAC rules.
+# TYPE freeipa_ldap_hbac_rule_total counter
+freeipa_ldap_hbac_rule_total 1
+# HELP freeipa_ldap_host_group_total Total number of host groups.
+# TYPE freeipa_ldap_host_group_total counter
+freeipa_ldap_host_group_total 2
+# HELP freeipa_ldap_host_total Total number of hosts.
+# TYPE freeipa_ldap_host_total counter
+freeipa_ldap_host_total 4
+# HELP freeipa_ldap_net_group_total Total number of net groups.
+# TYPE freeipa_ldap_net_group_total counter
+freeipa_ldap_net_group_total 0
+# HELP freeipa_ldap_replica_error_code Error code from last replica sync.
+# TYPE freeipa_ldap_replica_error_code gauge
+freeipa_ldap_replica_error_code{replica="ipa2.example.com"} 0
+freeipa_ldap_replica_error_code{replica="ipa3.example.com"} 0
+# HELP freeipa_ldap_replica_last_update The last time a replica sync occurred.
+# TYPE freeipa_ldap_replica_last_update gauge
+freeipa_ldap_replica_last_update{replica="ipa2.example.com"} 1.693362478e+09
+freeipa_ldap_replica_last_update{replica="ipa3.example.com"} 1.693362636e+09
+# HELP freeipa_ldap_scrapes_total Current total HAProxy scrapes.
+# TYPE freeipa_ldap_scrapes_total counter
+freeipa_ldap_scrapes_total 1
+# HELP freeipa_ldap_service_total Total number of services.
+# TYPE freeipa_ldap_service_total counter
+freeipa_ldap_service_total 6
+# HELP freeipa_ldap_sudo_rule_total Total number of sudo rules.
+# TYPE freeipa_ldap_sudo_rule_total counter
+freeipa_ldap_sudo_rule_total 0
+# HELP freeipa_ldap_up Was the last scrape of FreeIPA successful.
+# TYPE freeipa_ldap_up gauge
+freeipa_ldap_up 1
+# HELP freeipa_ldap_user_active_total Total number of active users.
+# TYPE freeipa_ldap_user_active_total counter
+freeipa_ldap_user_active_total 7
+# HELP freeipa_ldap_user_preserved_total Total number of preserved users.
+# TYPE freeipa_ldap_user_preserved_total counter
+freeipa_ldap_user_preserved_total 3
+# HELP freeipa_ldap_user_stage_total Total number of staged users.
+# TYPE freeipa_ldap_user_stage_total counter
+freeipa_ldap_user_stage_total 1

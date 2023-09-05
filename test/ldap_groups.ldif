@@ -1,0 +1,11 @@
+# admins, groups, accounts, example.com
+dn: cn=admins,cn=groups,cn=accounts,dc=example,dc=com
+
+# ipausers, groups, accounts, example.com
+dn: cn=ipausers,cn=groups,cn=accounts,dc=example,dc=com
+
+# editors, groups, accounts, example.com
+dn: cn=editors,cn=groups,cn=accounts,dc=example,dc=com
+
+# trust admins, groups, accounts, example.com
+dn: cn=trust admins,cn=groups,cn=accounts,dc=example,dc=com

@@ -1,0 +1,30 @@
+---
+hostname: ipa1.example.com
+http:
+  bind_addr: 127.0.0.1
+  port: 8832
+ldap:
+  address: ldap://127.0.0.1:10389
+  connect_method: Unsecure
+  base_dn: dc=example,dc=com
+  bind_dn: uid=freeipa-health-metrics,cn=users,cn=accounts,dc=example,dc=com
+  bind_password: testPassword
+  search_size_limit: 10
+
+freeipa:
+  krb5_realm: EXAMPLE.COM
+
+  host: localhost:8831
+  insecure_skip_verify: true
+  username: freeipa-health-metrics
+  password: testPassword
+
+  disabled_metrics:
+    - group_members
+
+krb5_sysconfig_path: test/krb5kdc
+pki_tomcat_server_xml: test/server.xml
+httpd_pki_proxy_conf: test/ipa-pki-proxy.conf
+kinit_bin: test/kinit
+klist_bin: test/klist
+ipa_getcert_bin: test/ipa-getcert

@@ -1,0 +1,11 @@
+{
+	"result": {
+		"result": true,
+		"value": null,
+		"summary": null
+	},
+	"version": "4.6.8",
+	"error": null,
+	"id": null,
+	"principal": "freeipa-health-metrics@EXAMPLE.COM"
+}

@@ -1,0 +1,83 @@
+# meToipa2.example.com, replica, dc\3Dexample\2Cdc\3Dcom, mapping tree, config
+dn: cn=meToipa2.example.com,cn=replica,cn=dc\3Dexample\2Cdc\3Dcom,cn=mapping tree,cn=con
+ fig
+cn: meToipa2.example.com
+description: me to ipa2.example.com
+ipaReplTopoManagedAgreementState: managed agreement - controlled by topology p
+ lugin
+nsDS5ReplicaBindMethod: SASL/GSSAPI
+nsDS5ReplicaHost: ipa2.example.com
+nsDS5ReplicaPort: 389
+nsDS5ReplicaRoot: dc=example,dc=com
+nsDS5ReplicaTransportInfo: LDAP
+nsDS5ReplicatedAttributeList: (objectclass=*) $ EXCLUDE memberof idnssoaserial
+  entryusn krblastsuccessfulauth krblastfailedauth krbloginfailedcount
+nsDS5ReplicatedAttributeListTotal: (objectclass=*) $ EXCLUDE entryusn krblasts
+ uccessfulauth krblastfailedauth krbloginfailedcount
+nsds50ruv: {replicageneration} 63d03746000000040000
+nsds50ruv: {replica 3 ldap://ipa2.example.com:389} 63d0375b000000030000 64cbbe17000
+ 600030000
+nsds50ruv: {replica 4 ldap://ipa1.example.com:389} 63d03746000100040000 64cbbe1b000
+ 300040000
+nsds50ruv: {replica 5 ldap://ipa3.example.com:389} 63d03858000000050000 64cbbe07000
+ 100050000
+nsds5ReplicaStripAttrs: modifiersName modifyTimestamp internalModifiersName in
+ ternalModifyTimestamp
+nsds5replicaTimeout: 120
+nsruvReplicaLastModified: {replica 3 ldap://ipa2.example.com:389} 00000000
+nsruvReplicaLastModified: {replica 4 ldap://ipa1.example.com:389} 00000000
+nsruvReplicaLastModified: {replica 5 ldap://ipa3.example.com:389} 00000000
+objectClass: nsds5replicationagreement
+objectClass: top
+objectClass: ipaReplTopoManagedAgreement
+nsds5replicareapactive: 0
+nsds5replicaLastUpdateStart: 20230830022758Z
+nsds5replicaLastUpdateEnd: 20230830022758Z
+nsds5replicaChangesSentSinceStartup:: NToyLzAgNDozLzIyNzEg
+nsds5replicaLastUpdateStatus: Error (0) Replica acquired successfully: Increme
+ ntal update succeeded
+nsds5replicaUpdateInProgress: FALSE
+nsds5replicaLastInitStart: 19700101000000Z
+nsds5replicaLastInitEnd: 19700101000000Z
+
+# meToipa3.example.com, replica, dc\3Dexample\2Cdc\3Dcom, mapping tree, config
+dn: cn=meToipa3.example.com,cn=replica,cn=dc\3Dexample\2Cdc\3Dcom,cn=mapping tree,cn=con
+ fig
+cn: meToipa3.example.com
+description: me to ipa3.example.com
+ipaReplTopoManagedAgreementState: managed agreement - controlled by topology p
+ lugin
+nsDS5ReplicaBindMethod: SASL/GSSAPI
+nsDS5ReplicaHost: ipa3.example.com
+nsDS5ReplicaPort: 389
+nsDS5ReplicaRoot: dc=example,dc=com
+nsDS5ReplicaTransportInfo: LDAP
+nsDS5ReplicatedAttributeList: (objectclass=*) $ EXCLUDE memberof idnssoaserial
+  entryusn krblastsuccessfulauth krblastfailedauth krbloginfailedcount
+nsDS5ReplicatedAttributeListTotal: (objectclass=*) $ EXCLUDE entryusn krblasts
+ uccessfulauth krblastfailedauth krbloginfailedcount
+nsds50ruv: {replicageneration} 63d03746000000040000
+nsds50ruv: {replica 5 ldap://ipa3.example.com:389} 63d03858000000050000 64cbbe07000
+ 100050000
+nsds50ruv: {replica 4 ldap://ipa1.example.com:389} 63d03746000100040000 64cbbe1b000
+ 300040000
+nsds50ruv: {replica 3 ldap://ipa2.example.com:389} 63d0375b000000030000 64cbbe17000
+ 600030000
+nsds5ReplicaStripAttrs: modifiersName modifyTimestamp internalModifiersName in
+ ternalModifyTimestamp
+nsds5replicaTimeout: 120
+nsruvReplicaLastModified: {replica 5 ldap://ipa3.example.com:389} 00000000
+nsruvReplicaLastModified: {replica 4 ldap://ipa1.example.com:389} 00000000
+nsruvReplicaLastModified: {replica 3 ldap://ipa2.example.com:389} 00000000
+objectClass: nsds5replicationagreement
+objectClass: top
+objectClass: ipaReplTopoManagedAgreement
+nsds5replicareapactive: 0
+nsds5replicaLastUpdateStart: 20230830023036Z
+nsds5replicaLastUpdateEnd: 20230830023036Z
+nsds5replicaChangesSentSinceStartup:: MzoyLzAgNDozLzIyNzIg
+nsds5replicaLastUpdateStatus: Error (0) Replica acquired successfully: Increme
+ ntal update succeeded
+nsds5replicaUpdateInProgress: FALSE
+nsds5replicaLastInitStart: 19700101000000Z
+nsds5replicaLastInitEnd: 19700101000000Z

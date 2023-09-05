@@ -1,0 +1,27 @@
+# ldap/ipa1.example.com@EXAMPLE.COM, services, accounts, example.com
+dn: krbprincipalname=ldap/ipa1.example.com@EXAMPLE.COM,cn=services,cn=accounts
+ ,dc=example,dc=com
+
+# dogtag/ipa1.example.com@EXAMPLE.COM, services, accounts, example.com
+dn: krbprincipalname=dogtag/ipa1.example.com@EXAMPLE.COM,cn=services,cn=accoun
+ ts,dc=example,dc=com
+
+# HTTP/ipa1.example.com@EXAMPLE.COM, services, accounts, example.com
+dn: krbprincipalname=HTTP/ipa1.example.com@EXAMPLE.COM,cn=services,cn=accounts
+ ,dc=example,dc=com
+
+# ldap/ipa2.example.com@EXAMPLE.COM, services, accounts, example.com
+dn: krbprincipalname=ldap/ipa2.example.com@EXAMPLE.COM,cn=services,cn=accounts
+ ,dc=example,dc=com
+
+# HTTP/ipa2.example.com@EXAMPLE.COM, services, accounts, example.com
+dn: krbprincipalname=HTTP/ipa2.example.com@EXAMPLE.COM,cn=services,cn=accounts
+ ,dc=example,dc=com
+
+# ldap/ipa3.example.com@EXAMPLE.COM, services, accounts, example.com
+dn: krbprincipalname=ldap/ipa3.example.com@EXAMPLE.COM,cn=services,cn=accounts
+ ,dc=example,dc=com
+
+# HTTP/ipa3.example.com@EXAMPLE.COM, services, accounts, example.com
+dn: krbprincipalname=HTTP/ipa3.example.com@EXAMPLE.COM,cn=services,cn=accounts
+ ,dc=example,dc=com

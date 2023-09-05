@@ -1,0 +1,47 @@
+#!/bin/bash
+
+if [[ $1 != "list" ]]; then
+    echo "Not listing."
+    exit 1
+fi
+
+# Return basic listing
+cat <<EOF
+Number of certificates and requests being tracked: 9.
+Request ID '20230123225030':
+	status: MONITORING
+	stuck: no
+	key pair storage: type=NSSDB,location='/etc/dirsrv/slapd-EXAMPLE-COM',nickname='Server-Cert',token='NSS Certificate DB',pinfile='/etc/dirsrv/slapd-EXAMPLE-COM/pwdfile.txt'
+	certificate: type=NSSDB,location='/etc/dirsrv/slapd-EXAMPLE-COM',nickname='Server-Cert',token='NSS Certificate DB'
+	CA: IPA
+	issuer: CN=Certificate Authority,O=EXAMPLE.COM
+	subject: CN=ipa1.example.com,O=EXAMPLE.COM
+	expires: 2050-05-22 16:07:16 UTC
+	dns: ipa1.example.com,ipa.example.com
+	principal name: ldap/ipa1.example.com@EXAMPLE.COM
+	key usage: digitalSignature,nonRepudiation,keyEncipherment,dataEncipherment
+	eku: id-kp-serverAuth,id-kp-clientAuth
+	pre-save command:
+	post-save command: /usr/libexec/ipa/certmonger/restart_dirsrv EXAMPLE-COM
+	track: yes
+	auto-renew: yes
+Request ID '20230123225047':
+	status: MONITORING
+	stuck: no
+	key pair storage: type=NSSDB,location='/etc/httpd/alias',nickname='Server-Cert',token='NSS Certificate DB',pinfile='/etc/httpd/alias/pwdfile.txt'
+	certificate: type=NSSDB,location='/etc/httpd/alias',nickname='Server-Cert',token='NSS Certificate DB'
+	CA: IPA
+	issuer: CN=Certificate Authority,O=EXAMPLE.COM
+	subject: CN=ipa1.example.com,O=EXAMPLE.COM
+	expires: 2050-06-21 00:14:29 UTC
+	dns: ipa1.example.com
+	key usage: digitalSignature,nonRepudiation,keyEncipherment,dataEncipherment
+	eku: id-kp-serverAuth,id-kp-clientAuth
+	pre-save command:
+	post-save command: /usr/libexec/ipa/certmonger/restart_httpd
+	track: yes
+	auto-renew: yes
+EOF
+
+# Return zero exit
+exit 0

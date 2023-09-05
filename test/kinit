@@ -1,0 +1,34 @@
+#!/bin/bash
+
+keytab=""
+cache=""
+credentials=""
+
+# Parse arguments.
+while (( $# > 0 )); do
+    case "$1" in
+        -kt)
+            shift
+            keytab=$1
+            shift
+        ;;
+        -c)
+            shift
+            cache=$1
+            shift
+        ;;
+        *)
+            credentials=$1
+            shift
+        ;;
+    esac
+done
+
+# Return basic kinit error if expected values do match.
+if [[ $keytab != "/etc/krb5.keytab" ]] || [[ $credentials != "host/ipa1.example.com@EXAMPLE.COM" ]] || ! [[ $cache =~ \/tmp\/krb5_cache_.* ]]; then
+    echo "kinit: Keytab contains no suitable keys for $credentials while getting initial credentials"
+    exit 1
+fi
+
+# Return zero exit
+exit 0

@@ -1,0 +1,3 @@
+# hostgroups, accounts, example.com
+dn: cn=hostgroups,cn=accounts,dc=example,dc=com
+numSubordinates: 2
