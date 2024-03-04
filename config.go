@@ -154,8 +154,8 @@ func (a *App) ReadConfig() {
 		FreeIPA: FreeIPAConfig{
 			GroupMembers: []GroupMembers{
 				{
-					Name:    "apache",
-					Members: []string{"ipaapi"},
+					Name:    "ipaapi",
+					Members: []string{"apache"},
 				},
 			},
 		},
