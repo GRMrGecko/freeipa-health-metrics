@@ -91,7 +91,7 @@ func (i *InfluxOutput) LineprotocolFormat(res []*io_prometheus_client.MetricFami
 
 	// Get prefix for transforming prometheus name to influx.
 	namePrefix := namespace + "_"
-	enc.SetPrecision(lineprotocol.Microsecond)
+	enc.SetPrecision(lineprotocol.Nanosecond)
 	now := time.Now()
 	if !i.OverrideTimestamp.IsZero() {
 		now = i.OverrideTimestamp
