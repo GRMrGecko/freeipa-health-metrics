@@ -6,7 +6,7 @@ require (
 	github.com/antchfx/xmlquery v1.3.17
 	github.com/go-ldap/ldap/v3 v3.4.5
 	github.com/gorilla/handlers v1.5.1
-	github.com/grmrgecko/go-freeipa v0.0.0-20230814003934-9662b716120c
+	github.com/grmrgecko/go-freeipa v0.0.0-20240308202417-98de29c2fd81
 	github.com/grmrgecko/go-unixaccounts v0.0.0-20230814023229-86c46cf9fa3b
 	github.com/influxdata/influxdb-client-go/v2 v2.12.3
 	github.com/influxdata/line-protocol/v2 v2.2.1

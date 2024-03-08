@@ -54,8 +54,8 @@ github.com/gorilla/securecookie v1.1.1 h1:miw7JPhV+b/lAHSXz4qd/nN9jRiAFV5FwjeKyC
 github.com/gorilla/securecookie v1.1.1/go.mod h1:ra0sb63/xPlUeL+yeDciTfxMRAA+MP+HVt/4epWDjd4=
 github.com/gorilla/sessions v1.2.1 h1:DHd3rPN5lE3Ts3D8rKkQ8x/0kqfeNmBAaiSi+o7FsgI=
 github.com/gorilla/sessions v1.2.1/go.mod h1:dk2InVEVJ0sfLlnXv9EAgkf6ecYs/i80K/zI+bUmuGM=
-github.com/grmrgecko/go-freeipa v0.0.0-20230814003934-9662b716120c h1:i35K9mKZNYjj8A0kA/tMj0hh+Ms1V9O6x8MsYSb1Dvs=
-github.com/grmrgecko/go-freeipa v0.0.0-20230814003934-9662b716120c/go.mod h1:bg9+b0lCJ2+XwgNfDOCG4gjMwsHH/nwTTKaYF/T3o/Q=
+github.com/grmrgecko/go-freeipa v0.0.0-20240308202417-98de29c2fd81 h1:22FQHx44AyR5vLybmjl5FuDu/Xj+jHZSZLaMPJvboNk=
+github.com/grmrgecko/go-freeipa v0.0.0-20240308202417-98de29c2fd81/go.mod h1:bg9+b0lCJ2+XwgNfDOCG4gjMwsHH/nwTTKaYF/T3o/Q=
 github.com/grmrgecko/go-unixaccounts v0.0.0-20230814023229-86c46cf9fa3b h1:4twMmYqPkuqUobzM7GkHECiEu6SuH06xgKgHRiviZ2U=
 github.com/grmrgecko/go-unixaccounts v0.0.0-20230814023229-86c46cf9fa3b/go.mod h1:ND6FYE0L6uFGxbi3A+pVpb9doB5mAUiFHjfYEDpHIHI=
 github.com/hashicorp/go-hclog v1.4.0 h1:ctuWFGrhFha8BnnzxqeRGidlEcQkDyL5u8J8t5eA11I=
