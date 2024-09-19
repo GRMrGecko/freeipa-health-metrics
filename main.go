@@ -15,7 +15,7 @@ import (
 const (
 	serviceName        = "freeipa-health-metrics"
 	serviceDescription = "Provides metrics of FreeIPA's health"
-	serviceVersion     = "0.1"
+	serviceVersion     = "0.4"
 	namespace          = "freeipa"
 )
 

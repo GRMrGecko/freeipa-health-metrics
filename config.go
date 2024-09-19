@@ -37,7 +37,7 @@ type Config struct {
 	HTTPDPKIProxyConf  string `fig:"httpd_pki_proxy_conf"`
 	KInitBin           string `fig:"kinit_bin"`
 	KListBin           string `fig:"klist_bin"`
-	IPAGetCertBIN      string `fig:"ipa_getcert_bin"`
+	GetCertBIN         string `fig:"getcert_bin"`
 }
 
 const (
@@ -167,7 +167,7 @@ func (a *App) ReadConfig() {
 		HTTPDPKIProxyConf:  "/etc/httpd/conf.d/ipa-pki-proxy.conf",
 		KInitBin:           "/usr/bin/kinit",
 		KListBin:           "/usr/bin/klist",
-		IPAGetCertBIN:      "/usr/bin/ipa-getcert",
+		GetCertBIN:         "/usr/bin/getcert",
 	}
 
 	// Load configuration.

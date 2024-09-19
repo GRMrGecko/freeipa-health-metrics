@@ -27,4 +27,4 @@ pki_tomcat_server_xml: test/server.xml
 httpd_pki_proxy_conf: test/ipa-pki-proxy.conf
 kinit_bin: test/kinit
 klist_bin: test/klist
-ipa_getcert_bin: test/ipa-getcert
+getcert_bin: test/getcert

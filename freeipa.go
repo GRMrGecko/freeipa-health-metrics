@@ -200,8 +200,8 @@ func (e *FreeIPAExporter) certMongerCerts() ([]*CertMongerCerts, error) {
 		requestRX := regexp.MustCompile(`Request ID '([A-Za-z0-9]+)':`)
 		keyValueRX := regexp.MustCompile(`\s([A-Za-z][A-Za-z- ]+): (.*)$`)
 
-		// Setup the ipa-getcert list command.
-		cmd := exec.Command(app.config.IPAGetCertBIN, "list")
+		// Setup the getcert list command.
+		cmd := exec.Command(app.config.GetCertBIN, "list")
 
 		// Get the pipes.
 		stdout, err := cmd.StdoutPipe()
